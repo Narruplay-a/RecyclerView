@@ -38,7 +38,5 @@ class ChatViewModel : ViewModel(), Listener {
         }
     }
 
-    override fun onItemClicked(id: Int) {
-        removeItem(id)
-    }
+    override fun onItemClicked(id: Int) { }
 }
